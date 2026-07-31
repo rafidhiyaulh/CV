@@ -324,8 +324,8 @@
   \section*{Experience}
 }
 \newcommand{\skillsSection}{
-  \cvsectionbookmark{0}{Technical Skills}
-  \section*{Technical Skills}
+  \cvsectionbookmark{0}{Selected Technical Skills}
+  \section*{Selected Technical Skills}
 }
 \newcommand{\educationSection}{
   \cvsectionbookmark{0}{Education}
@@ -342,8 +342,8 @@
 }
 
 \newcommand{\achievementsSection}{
-  \cvsectionbookmark{0}{Awards and Achievements}
-  \section*{Awards and Achievements}
+  \cvsectionbookmark{0}{Selected Awards and Achievements}
+  \section*{Selected Awards and Achievements}
 }
 
 \newcommand{\researchprojects}{
@@ -352,8 +352,8 @@
 }
 
 \newcommand{\projectsSection}{
-  \cvsectionbookmark{0}{Projects}
-  \section*{Projects}
+  \cvsectionbookmark{0}{Selected Projects}
+  \section*{Selected Projects}
 }
 
 \newcommand{\interestsSection}{
