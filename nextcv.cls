@@ -255,7 +255,7 @@
   \end{tabular*}\vspace{-7pt}
 }
 
-\newcommand{\customRoleHeading}[2]{\vspace{-15pt}\item
+\newcommand{\customRoleHeading}[2]{\vspace{-12pt}\item
   \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
     \textit{\small#1} & \textit{\small #2} \\
   \end{tabular*}\vspace{-5pt}
