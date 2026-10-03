@@ -209,8 +209,8 @@
 \addtolength{\oddsidemargin}{-0.6in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
-\addtolength{\textheight}{1.4in}
+\addtolength{\topmargin}{-.72in}
+\addtolength{\textheight}{1.64in}
 \setlength{\footskip}{5pt}
 \urlstyle{same}
 \raggedbottom
@@ -235,8 +235,8 @@
 % Add one baseline (~one line) before and after all \section
 \titlespacing*{\section}
   {0pt}            % left indent
-  {0.5\baselineskip} % space *before*
-  {0.5\baselineskip} % space *after*
+  {6pt}            % space *before*
+  {3pt}          % space *after*
 
 
 % --- PDF accessibility ---
@@ -264,7 +264,7 @@
 \newcommand{\customProject}[2]{\item
   \begin{tabular*}{0.995\textwidth}{l@{\extracolsep{\fill}}r}
     \small#1 & \small #2\\
-  \end{tabular*}\vspace{-7pt}
+  \end{tabular*}\vspace{-2.5pt}
 }
 
 \renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
@@ -324,8 +324,13 @@
   \section*{Experience}
 }
 \newcommand{\skillsSection}{
-  \cvsectionbookmark{0}{Selected Technical Skills}
-  \section*{Selected Technical Skills}
+  \cvsectionbookmark{0}{Skills and Languages}
+  \section*{Skills \& Languages}
+}
+
+\newcommand{\leadershipSection}{
+  \cvsectionbookmark{0}{Leadership and Extracurricular}
+  \section*{Leadership \& Extracurricular}
 }
 \newcommand{\educationSection}{
   \cvsectionbookmark{0}{Education}
@@ -349,6 +354,11 @@
 \newcommand{\researchprojects}{
   \cvsectionbookmark{0}{Research Projects}
   \section*{Research Projects}
+}
+
+\newcommand{\researchSection}{
+  \cvsectionbookmark{0}{Research and Projects}
+  \section*{Research \& Projects}
 }
 
 \newcommand{\projectsSection}{
